@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#banner{
+    background-image: linear-gradient(rgba(0,0,0,0.5),#009688), url(images/rahul3.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+.logo{
+    width: 10%;
+    height: 10%;
+    font:  #fff;
+}
+.banner-text {
+    text-align:center;
+    color: #fff;
+    padding-top: 200px;
+}
+.banner-text h1{
+    font-family: 'Tangerine', serif;
+    font-size: 130px;
+
+
+}
+.banner-text p{
+    font-size: 20px;
+    font-style: italic;
+}
+.banner-btn a{
+    width: 150px;
+  text-decoration: none;
+  display:inline-block ;
+  margin: 0 10px;
+  padding: 12px 0;
+  color: #fff;
+  border: .5px
+   solid #fff;
+
+}
